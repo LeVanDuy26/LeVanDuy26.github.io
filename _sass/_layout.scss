@@ -1,10 +1,13 @@
-// Header
+// Header with Glassmorphism
 .header {
-    background: $white;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: $blur-md;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: $shadow-sm;
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: all 0.3s ease;
 }
 
 .header-content {
@@ -18,8 +21,16 @@
     a {
         font-size: $font-size-h3;
         font-weight: 700;
-        color: $primary-color;
+        background: $accent-gradient;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
         text-decoration: none;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            transform: scale(1.05);
+        }
     }
 }
 
@@ -34,20 +45,42 @@
         color: $text-color;
         text-decoration: none;
         font-weight: 500;
-        transition: color 0.3s ease;
+        padding: $spacing-xs $spacing-sm;
+        border-radius: $border-radius-sm;
+        transition: all 0.3s ease;
+        position: relative;
+        
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 2px;
+            background: $accent-gradient;
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
         
         &:hover {
             color: $primary-color;
+            background: rgba(37, 99, 235, 0.1);
+            
+            &::before {
+                width: 100%;
+            }
         }
     }
 }
 
-// Footer
+// Footer with Glassmorphism
 .footer {
-    background: $text-color;
+    background: linear-gradient(135deg, rgba(31, 41, 55, 0.9), rgba(17, 24, 39, 0.9));
+    backdrop-filter: $blur-md;
     color: $white;
     padding: $spacing-lg 0;
     margin-top: auto;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-content {
