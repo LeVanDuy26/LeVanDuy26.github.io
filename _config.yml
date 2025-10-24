@@ -1,3 +1,34 @@
 title: "Portfolio - Lê Văn Duy"
 description: "Data Analyst | Fintech Student @ PTIT | Banking & Finance"
 theme: jekyll-theme-cayman
+
+# Site settings
+url: "https://levanduy26.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-sass-converter
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

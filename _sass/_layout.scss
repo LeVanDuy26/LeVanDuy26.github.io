@@ -1,0 +1,125 @@
+// Header
+.header {
+    background: $white;
+    box-shadow: $shadow-sm;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-sm 0;
+}
+
+.logo {
+    a {
+        font-size: $font-size-h3;
+        font-weight: 700;
+        color: $primary-color;
+        text-decoration: none;
+    }
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: $spacing-lg;
+    
+    a {
+        color: $text-color;
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+// Footer
+.footer {
+    background: $text-color;
+    color: $white;
+    padding: $spacing-lg 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    p {
+        margin: 0;
+    }
+}
+
+.footer-links {
+    display: flex;
+    gap: $spacing-lg;
+    
+    a {
+        color: $white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+// Responsive Design
+@media (max-width: $mobile) {
+    .main-content {
+        padding: $spacing-sm;
+    }
+    
+    .hero-section {
+        margin: -$spacing-sm -$spacing-sm $spacing-lg -$spacing-sm;
+    }
+    
+    .section {
+        margin: $spacing-lg 0;
+        padding: $spacing-sm;
+    }
+    
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+        gap: $spacing-sm;
+    }
+    
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        gap: $spacing-sm;
+    }
+    
+    .nav-list {
+        gap: $spacing-sm;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: $spacing-sm;
+        text-align: center;
+    }
+    
+    .footer-links {
+        gap: $spacing-sm;
+    }
+}

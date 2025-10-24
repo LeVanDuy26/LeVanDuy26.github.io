@@ -1,0 +1,78 @@
+// Base styles
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    font-size: $font-size-base;
+    line-height: 1.6;
+    color: $text-color;
+    margin: 0;
+    padding: 0;
+    background-color: $white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-content {
+    flex: 1;
+    padding: $spacing-lg;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: $spacing-sm;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: $font-size-h1;
+}
+
+h2 {
+    font-size: $font-size-h2;
+    color: $text-color;
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: $spacing-xs;
+    margin-bottom: $spacing-md;
+}
+
+h3 {
+    font-size: $font-size-h3;
+}
+
+h4 {
+    font-size: $font-size-h4;
+}
+
+p {
+    margin-bottom: $spacing-sm;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+ul, ol {
+    margin-bottom: $spacing-sm;
+    padding-left: $spacing-lg;
+}
+
+// Container
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 $spacing-sm;
+}
