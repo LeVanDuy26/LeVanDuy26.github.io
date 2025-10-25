@@ -19,6 +19,17 @@ title: "Portfolio - Lê Văn Duy"
     <h2>About Me</h2>
     <p>Tôi là <strong>Lê Văn Duy</strong>, sinh viên năm 4 ngành <strong>Công nghệ Tài chính (Fintech)</strong> tại PTIT với kinh nghiệm thực tế tại <strong>MBBank</strong>. Hiện đang thực tập tại Phòng KHDN/KHCN, tôi có cơ hội tiếp xúc trực tiếp với dữ liệu ngân hàng và các quy trình phân tích thực tế.</p>
     
+    <h3>What Others Say</h3>
+    <div style="background: rgba(255, 255, 255, 0.8); padding: 1.5rem; border-radius: 10px; margin: 1rem 0; border-left: 4px solid #2563eb;">
+        <p style="font-style: italic; margin-bottom: 0.5rem;">"Duy thể hiện khả năng phân tích dữ liệu xuất sắc và luôn đưa ra insights có giá trị cho business. Kỹ năng Python và SQL của em rất vững chắc, đặc biệt trong việc xử lý dữ liệu ngân hàng quy mô lớn."</p>
+        <p style="font-weight: 600; color: #2563eb; margin: 0;"><strong>Supervisor - MBBank Phòng KHDN/KHCN</strong></p>
+    </div>
+    
+    <div style="background: rgba(255, 255, 255, 0.8); padding: 1.5rem; border-radius: 10px; margin: 1rem 0; border-left: 4px solid #10b981;">
+        <p style="font-style: italic; margin-bottom: 0.5rem;">"Dự án Movie Ticket Analysis của Duy rất ấn tượng với quy mô 426K+ records và business impact +$1.03M. Cách tiếp cận systematic và documentation chi tiết cho thấy professional mindset cao."</p>
+        <p style="font-weight: 600; color: #10b981; margin: 0;"><strong>Professor - PTIT Fintech Department</strong></p>
+    </div>
+    
     <h3>Học vấn & Chuyên môn</h3>
     <ul>
         <li><strong>PTIT - Công nghệ Tài chính (Fintech)</strong> - Năm 4</li>
@@ -68,6 +79,37 @@ title: "Portfolio - Lê Văn Duy"
         <div class="skill-item">
             <h4>Tools & Technologies</h4>
             <p>Git, GitHub, VS Code, Jupyter, Figma, XMind, MySQL Workbench</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="timeline">
+    <h2>Learning Journey & Milestones</h2>
+    <div style="position: relative; padding-left: 2rem;">
+        <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 2px; background: linear-gradient(180deg, #2563eb, #10b981);"></div>
+        
+        <div style="position: relative; margin-bottom: 2rem; padding-left: 2rem;">
+            <div style="position: absolute; left: -1.5rem; top: 0.5rem; width: 12px; height: 12px; background: #2563eb; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 3px #2563eb;"></div>
+            <h4 style="color: #2563eb; margin-bottom: 0.5rem;">2024 - MBBank Internship</h4>
+            <p style="margin: 0;">Thực tập sinh Data Analysis tại Phòng KHDN/KHCN, tiếp xúc với dữ liệu ngân hàng thực tế</p>
+        </div>
+        
+        <div style="position: relative; margin-bottom: 2rem; padding-left: 2rem;">
+            <div style="position: absolute; left: -1.5rem; top: 0.5rem; width: 12px; height: 12px; background: #10b981; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 3px #10b981;"></div>
+            <h4 style="color: #10b981; margin-bottom: 0.5rem;">2024 - Winner Group Analytics</h4>
+            <p style="margin: 0;">Xây dựng hệ thống phân tích dữ liệu với Pancake POS API và data warehouse architecture</p>
+        </div>
+        
+        <div style="position: relative; margin-bottom: 2rem; padding-left: 2rem;">
+            <div style="position: absolute; left: -1.5rem; top: 0.5rem; width: 12px; height: 12px; background: #f59e0b; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 3px #f59e0b;"></div>
+            <h4 style="color: #f59e0b; margin-bottom: 0.5rem;">2024 - Movie Ticket Analysis</h4>
+            <p style="margin: 0;">Phân tích 426K+ records, tạo ra 7 chiến lược với tiềm năng +$1.03M business impact</p>
+        </div>
+        
+        <div style="position: relative; margin-bottom: 2rem; padding-left: 2rem;">
+            <div style="position: absolute; left: -1.5rem; top: 0.5rem; width: 12px; height: 12px; background: #8b5cf6; border-radius: 50%; border: 3px solid white; box-shadow: 0 0 0 3px #8b5cf6;"></div>
+            <h4 style="color: #8b5cf6; margin-bottom: 0.5rem;">2021-2024 - PTIT Fintech</h4>
+            <p style="margin: 0;">Sinh viên năm 4, chuyên sâu về Xác suất thống kê, Kinh tế lượng, AI trong tài chính</p>
         </div>
     </div>
 </section>
@@ -129,6 +171,42 @@ title: "Portfolio - Lê Văn Duy"
     </ul>
 </section>
 
+<section class="section" id="certifications">
+    <h2>Certifications & Achievements</h2>
+    <p>Professional certifications và achievements validate expertise của tôi trong lĩnh vực Data Analysis:</p>
+    
+    <div class="skill-grid">
+        <div class="skill-item">
+            <h4>Microsoft Excel</h4>
+            <p>Advanced Formulas, Pivot Tables, VBA Programming</p>
+            <span style="background: #2563eb; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">In Progress</span>
+        </div>
+        <div class="skill-item">
+            <h4>SQL Certification</h4>
+            <p>MySQL, Complex Queries, Database Design</p>
+            <span style="background: #10b981; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">Planned</span>
+        </div>
+        <div class="skill-item">
+            <h4>Python Data Science</h4>
+            <p>pandas, numpy, matplotlib, scikit-learn</p>
+            <span style="background: #f59e0b; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">Self-Taught</span>
+        </div>
+        <div class="skill-item">
+            <h4>Banking & Finance</h4>
+            <p>Credit Risk Analysis, Basel III, IFRS</p>
+            <span style="background: #8b5cf6; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">Academic</span>
+        </div>
+    </div>
+    
+    <h3>Academic Achievements</h3>
+    <ul>
+        <li><strong>PTIT Fintech:</strong> Sinh viên năm 4 với focus vào Data Analysis</li>
+        <li><strong>MBBank Internship:</strong> Thực tập sinh xuất sắc tại Phòng KHDN/KHCN</li>
+        <li><strong>Project Impact:</strong> +$1.03M business impact từ Movie Ticket Analysis</li>
+        <li><strong>Technical Skills:</strong> 426K+ records processing, Data Pipeline Architecture</li>
+    </ul>
+</section>
+
 <section class="section" id="contact">
     <h2>Liên hệ & Kết nối</h2>
     <p style="text-align: center; margin: 2rem 0;">Tôi luôn sẵn sàng trao đổi về cơ hội nghề nghiệp, dự án hợp tác hoặc chia sẻ kinh nghiệm:</p>
@@ -148,4 +226,43 @@ title: "Portfolio - Lê Văn Duy"
     
     <h3>Blog & Insights</h3>
     <p>Đang phát triển blog để chia sẻ insights về Data Analysis trong Banking & Finance. Sẽ cập nhật các case studies và best practices.</p>
+</section>
+
+<section class="section" id="articles">
+    <h2>Articles & Insights</h2>
+    <p>Chia sẻ kiến thức và insights về Data Analysis trong Banking & Finance:</p>
+    
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Credit Risk Analysis với Python</h3>
+            <p><strong>Chủ đề:</strong> Ứng dụng Machine Learning trong đánh giá rủi ro tín dụng</p>
+            <p><strong>Nội dung:</strong> Phân tích dữ liệu khách hàng, xây dựng model dự đoán default</p>
+            <p><strong>Tools:</strong> Python, pandas, scikit-learn, matplotlib</p>
+            <span style="background: #2563eb; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">Coming Soon</span>
+        </div>
+        
+        <div class="project-card">
+            <h3>Customer Lifetime Value (CLV) trong Banking</h3>
+            <p><strong>Chủ đề:</strong> Tính toán và tối ưu hóa CLV cho khách hàng ngân hàng</p>
+            <p><strong>Nội dung:</strong> Case study từ dự án MBBank, insights thực tế</p>
+            <p><strong>Tools:</strong> SQL, Python, Excel, Business Intelligence</p>
+            <span style="background: #10b981; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">In Progress</span>
+        </div>
+        
+        <div class="project-card">
+            <h3>Data Pipeline Architecture</h3>
+            <p><strong>Chủ đề:</strong> Xây dựng data pipeline từ Bronze → Silver → Gold</p>
+            <p><strong>Nội dung:</strong> Kinh nghiệm từ Winner Group Analytics project</p>
+            <p><strong>Tools:</strong> Python, API Integration, ETL, Data Warehouse</p>
+            <span style="background: #f59e0b; color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem;">Planned</span>
+        </div>
+    </div>
+    
+    <h3>Learning Resources</h3>
+    <ul>
+        <li><strong>Online Courses:</strong> Coursera, Udemy - Machine Learning, AI in Finance</li>
+        <li><strong>Professional Communities:</strong> LinkedIn Data Science groups, GitHub</li>
+        <li><strong>Reading:</strong> Banking regulations, Fintech trends, Data Analysis best practices</li>
+        <li><strong>Practice:</strong> Kaggle competitions, personal projects, open-source contributions</li>
+    </ul>
 </section>
